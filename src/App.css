@@ -23,60 +23,82 @@ body {
 }
 
 #Mercúrio {
+  display: block;
+  margin: auto;
+  margin-top: 40%;
   height: 31px;
-  width: 41px;
   left: 39px;
   top: 620px;
+  width: 41px;
 }
 
 #Vênus {
+  display: block;
+  margin: auto;
+  margin-top: 28%;
   height: 76px;
-  width: 102px;
   left: 137px;
   top: 597px;
+  width: 102px;
 }
 
 #Terra {
+  display: block;
+  margin: auto;
+  margin-top: 25%;
   height: 79px;
-  width: 106px;
   left: 278px;
   top: 596px;
+  width: 106px;
 }
 
 #Marte {
+  display: block;
+  margin: auto;
+  margin-top: 30%;
   height: 50px;
-  width: 66px;
   left: 423px;
   top: 610px;
+  width: 66px;
 }
 
 #Júpiter {
+  display: block;
+  margin: auto;
   height: 204px;
-  width: 272px;
   left: 489px;
   top: 518px;
+  width: 272px;
 }
 
 #Saturno {
+  display: block;
+  margin: auto;
   height: 210.9px;
-  width: 282.41px;
   left: 694px;
   top: 547.35px;
+  width: 282.41px;
   transform: rotate(-16.53deg);
 }
 
 #Urano {
+  display: block;
+  margin: auto;
+  margin-top: 25%;
   height: 109px;
-  width: 144px;
   left: 977px;
   top: 576px;
+  width: 144px;
 }
 
 #Netuno {
+  display: block;
+  margin: auto;
+  margin-top: 25%;
   height: 107px;
-  width: 144px;
   left: 1255px;
   top: 577px;
+  width: 144px;
 }
 
 #missions-style {
