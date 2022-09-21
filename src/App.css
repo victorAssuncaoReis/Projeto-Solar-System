@@ -1,7 +1,66 @@
 .App {
+  display: flexbox;
   text-align: center;
 }
 body {
   background-image: url('images/background.png');
   color: white;
+  background-position: center;
+  text-align: center;
+}
+#sistema-solar{
+  display: flexbox;
+  width: 100%;
+}
+.planetas{
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  margin: auto;
+}
+#Mercúrio{
+  width: 40%;
+}
+#Vênus{
+  width: 60%;
+}
+#Terra{
+  width: 65%;
+}
+#Marte {
+  width: 45%;
+}
+#Júpiter{
+  width: 100%;
+}
+#Saturno{
+  width: 95%;
+}
+#Urano{
+  width: 70%;
+}
+#Netuno{
+  width: 65%;
+}
+#missions-style{
+  background-color: rgba(169,169,169, 0.2);
+  width: 80%;
+  margin: auto;
+  border: 2px solid none;
+  border-radius: 20px;
+  margin-top: 200px;
+}
+.mission-cards{
+  background-color: rgba(255,255,255, 0.1);
+  width: 30%;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  display: inline-block;
+}
+h2{
+  padding-top: 30px;
 }
