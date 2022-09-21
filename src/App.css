@@ -5,10 +5,10 @@
 
 body {
   background-image: url('images/background.png');
-  color: white;
   background-position: center;
-  text-align: center;
+  color: white;
   font-family: 'Epilogue';
+  text-align: center;
 }
 
 #sistema-solar {
@@ -17,101 +17,101 @@ body {
 
 .planetas {
   display: inline-block;
-  width: 12%;
-  text-align: center;
   margin: auto;
+  text-align: center;
+  width: 12%;
 }
 
 #Mercúrio {
-  width: 41px;
   height: 31px;
+  width: 41px;
   left: 39px;
   top: 620px;
 }
 
 #Vênus {
-  width: 102px;
   height: 76px;
+  width: 102px;
   left: 137px;
   top: 597px;
 }
 
 #Terra {
-  width: 106px;
   height: 79px;
+  width: 106px;
   left: 278px;
   top: 596px;
 }
 
 #Marte {
-  width: 66px;
   height: 50px;
+  width: 66px;
   left: 423px;
   top: 610px;
 }
 
 #Júpiter {
-  width: 272px;
   height: 204px;
+  width: 272px;
   left: 489px;
   top: 518px;
 }
 
 #Saturno {
-  width: 282.41px;
   height: 210.9px;
+  width: 282.41px;
   left: 694px;
   top: 547.35px;
   transform: rotate(-16.53deg);
 }
 
 #Urano {
-  width: 144px;
   height: 109px;
+  width: 144px;
   left: 977px;
   top: 576px;
 }
 
 #Netuno {
-  width: 144px;
   height: 107px;
+  width: 144px;
   left: 1255px;
   top: 577px;
 }
 
 #missions-style {
   background-color: rgba(169, 169, 169, 0.2);
-  width: 80%;
-  margin: auto;
   border: 2px solid none;
+  margin: auto;
+  width: 80%;
   border-radius: 20px;
   margin-top: 200px;
 }
 
 .mission-cards {
-  display: inline-block;
   background-color: rgba(255, 255, 255, 0.1);
-  width: 30%;
+  display: inline-block;
   border: 2px solid white;
-  color: white;
+  width: 30%;
   border-radius: 30px;
+  color: white;
+  box-shadow: 0px 4px 14px;
+  margin-bottom: 5%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 5%;
-  box-shadow: 0px 4px 14px
 }
 
 h2 {
   padding-top: 30px;
   font-weight: 300;
   text-shadow:
-  0 0 7px #fff,
-  0 0 10px #fff,
-  0 0 21px #fff,
-  0 0 42px white,
-  0 0 82px white,
-  0 0 92px white,
-  0 0 102px white,
+  0 0 7px white, 
+  0 0 10px white, 
+  0 0 21px white, 
+  0 0 42px white, 
+  0 0 82px white, 
+  0 0 92px white, 
+  0 0 102px white, 
   0 0 151px white;
 }
 h1 {
@@ -120,9 +120,9 @@ h1 {
   letter-spacing: 10px;
   font-weight: 400;
   text-shadow:
-  0 0 7px #fff,
-  0 0 10px #fff,
-  0 0 21px #fff,
+  0 0 7px white,
+  0 0 10px white,
+  0 0 21px white,
   0 0 42px white,
   0 0 82px white,
   0 0 92px white,
