@@ -1,7 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Title extends React.Component {
   render() {
+    console.log(this.props);
     const { headline } = this.props;
     return (
       <h2>{ headline }</h2>
@@ -12,7 +14,5 @@ class Title extends React.Component {
 export default Title;
 
 Title.propTypes = {
-  Title: propTypes.shape({
-    headline: propTypes.string,
-  }).isRequired,
+  headline: PropTypes.string.isRequired,
 };
