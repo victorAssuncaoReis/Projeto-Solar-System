@@ -20,6 +20,7 @@ body {
   margin: auto;
   text-align: center;
   width: 12%;
+  margin-top: 100px;
 }
 
 #Mercúrio {
@@ -27,9 +28,9 @@ body {
   height: 31px;
   left: 39px;
   top: 620px;
-  width: 41px;
   margin: auto;
   margin-top: 40%;
+  width: 41px;
 }
 
 #Vênus {
@@ -47,9 +48,9 @@ body {
   height: 79px;
   left: 278px;
   top: 596px;
-  width: 106px;
   margin: auto;
   margin-top: 25%;
+  width: 106px;
 }
 
 #Marte {
@@ -57,9 +58,9 @@ body {
   height: 50px;
   left: 423px;
   top: 610px;
-  width: 66px;
   margin: auto;
   margin-top: 30%;
+  width: 66px;
 }
 
 #Júpiter {
@@ -67,8 +68,8 @@ body {
   height: 204px;
   left: 489px;
   top: 518px;
-  width: 272px;
   margin: auto;
+  width: 272px;
 }
 
 #Saturno {
@@ -77,8 +78,8 @@ body {
   left: 694px;
   top: 547.35px;
   transform: rotate(-16.53deg);
-  width: 282.41px;
   margin: auto;
+  width: 282.41px;
 }
 
 #Urano {
@@ -86,9 +87,9 @@ body {
   height: 109px;
   left: 977px;
   top: 576px;
-  width: 144px;
   margin: auto;
   margin-top: 25%;
+  width: 144px;
 }
 
 #Netuno {
@@ -96,18 +97,18 @@ body {
   height: 107px;
   left: 1255px;
   top: 577px;
-  width: 144px;
   margin: auto;
   margin-top: 25%;
+  width: 144px;
 }
 
 #missions-style {
   background-color: rgba(169, 169, 169, 0.2);
-  border: 2px solid none;
+  border: 2px solid white;
   margin: auto;
   border-radius: 20px;
-  margin-top: 200px;
   width: 80%;
+  margin-top: 200px;
 }
 
 .mission-cards {
@@ -124,6 +125,7 @@ body {
 }
 
 h2 {
+  margin-top: 150px;
   padding-top: 30px;
   font-weight: 300;
   text-shadow:
@@ -136,6 +138,12 @@ h2 {
     0 0 102px white ,
     0 0 151px white;
 }
+
+.MISSÕES {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 h1 {
   margin-top: 100px;
   text-transform: uppercase;
@@ -150,4 +158,16 @@ h1 {
     0 0 92px white ,
     0 0 102px white ,
     0 0 151px white;
+}
+
+p {
+  text-shadow:
+  0 0 7px gray ,
+  0 0 10px gray ,
+  0 0 21px gray ,
+  0 0 42px gray ,
+  0 0 82px gray ,
+  0 0 92px gray ,
+  0 0 102px gray ,
+  0 0 151px gray;
 }
